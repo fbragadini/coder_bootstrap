@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link navegador_link" aria-current="page" href="cursos.html">Cursos</a>
+                    <a class="nav-link navegador_link fw-bold" aria-current="page" href="cursos.html">Cursos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navegador_link" href="blog.html">Blog</a>
+                    <a class="nav-link navegador_link fw-bold" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navegador_link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link navegador_link fw-bold" href="nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navegador_link" href="contacto.html">Contacto</a>
+                    <a class="nav-link navegador_link fw-bold" href="contacto.html">Contacto</a>
                 </li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
         </nav> <!-- ENDS NAVIGATION -->
     
         <div class="px-4 text-center hero_padding">
-            <h1 class="display-5 fw-bold mt-5 mb-5">APRENDE. CREA. CRECE.</h1>
+            <h1 class="display-4 fw-bold mt-5 mb-5">APRENDE. CREA. CRECE.</h1>
             <div class="col-lg-6 mx-auto">
             <h2 class="lead mt-4 mb-5">Aprende todo sobre la tecnología que esta revolucionando al mundo.</h2>
             </div>
@@ -49,48 +49,64 @@
     
     <main class="cursos">
         <div class="container-fluid py-5">
-            <h3 class="display-5 fw-bold text-center mb-3">Cursos</h3>
-
-            <div class="row py-2 d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3">
-
-                <div class="card d-flex flex-column align-items-center justify-content-center mx-4 bg_whitesmoke" style="width: 18rem;">
-                    <img src="../img/curso_blockchain.png" class="card-img-top" alt="fundamentos">
-                    <div class="card-body">
-                        <h5 class="card-title display-7 fw-bold text-center">Fundamentos</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="boton py-2 px-2">INSCRIBIRSE</button>
-                    </div>
-                </div> <!--ENDS CURSO 1-->
-
-                <div class="card d-flex flex-column align-items-center justify-content-center mx-4 bg_whitesmoke" style="width: 18rem;">
-                    <img src="../img/curso_cripto.png" class="card-img-top" alt="fundamentos">
-                    <div class="card-body">
-                        <h5 class="card-title display-7 fw-bold text-center">Criptomonedas</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="boton py-2 px-2">INSCRIBIRSE</button>
-                    </div>
-                </div> <!-- ENDS CURSO 2-->
-
-                <div class="card d-flex flex-column align-items-center justify-content-center mx-4 bg_whitesmoke" style="width: 18rem;">
-                    <img src="../img/curso_solidity.svg" class="card-img-top" alt="fundamentos">
-                    <div class="card-body">
-                        <h5 class="card-title display-7 fw-bold text-center">Solidity</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="boton py-2 px-2">INSCRIBIRSE</button>
-                    </div>
-                </div> <!--ENDS CURSO 3-->
-            </div>
-
-            <div class="row py-2 d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3">
-                <div class="card d-flex flex-column align-items-center justify-content-center mx-4 bg_whitesmoke" style="width: 18rem;">
-                    <img src="../img/curso_web3-removebg-preview.png" class="card-img-top" alt="fundamentos">
-                    <div class="card-body">
-                        <h5 class="card-title display-7 fw-bold text-center">Web 3.0</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="boton py-2 px-2">INSCRIBIRSE</button>
-                    </div>
+            <h3 class="display-5 fw-bold text-center mb-3" id="cursos">Cursos</h3>
+            <div class="row mb-2 justify-content-sm-center w-100">
+                <div class="col-md-5">
+                    <article class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg_whitesmoke">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0">Fundamentos</h3>
+                            <div class="mb-1 text-muted">8 clases</div>
+                            <p class="card-text mb-auto">Fundamentos básicos y conocimientos de base sobre blockchain.</p>
+                            <button class="boton mt-2 py-2 px-2">INSCRIBIRSE</button>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="../img/curso_blockchain.png" class="card-img-top" alt="fundamentos">
+                        </div>
+                    </article>
                 </div>
-            </div> <!-- ENDS CURSO 4-->
+
+                <div class="col-md-5">
+                    <article class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg_whitesmoke">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0">Criptomonedas</h3>
+                            <div class="mb-1 text-muted">16 clases</div>
+                                <p class="mb-auto">Conoce las principales criptomonedas y aprende a evaluar los proyectos.</p>
+                                <button class="boton mt-2 py-2 px-2">INSCRIBIRSE</button>
+                            </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="../img/curso_cripto.png" class="card-img-top" alt="curso_cripto">
+                        </div>
+                    </article>
+                </div>
+            </div>
+    
+            <div class="row mb-2 justify-content-sm-center w-100">
+                <div class="col-md-5">
+                    <article class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg_whitesmoke">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0">Solidity</h3>
+                            <div class="mb-1 text-muted">16 clases</div>
+                            <p class="card-text mb-auto">Conoce todo y aprende a desarrollar smart-contracts en la blockchain de Ethereum.</p>
+                            <button class="boton mt-2 py-2 px-2">INSCRIBIRSE</button>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="../img/curso_solidity.svg" class="card-img-top" alt="curso_solidity">
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-5">
+                    <article class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg_whitesmoke">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0">Web 3.0</h3>
+                            <div class="mb-1 text-muted">8 clases</div>
+                                <p class="mb-auto">Conoce todo sobre el nuevo paradigma de la web.</p>
+                                <button class="boton mt-2 py-2 px-2">INSCRIBIRSE</button>
+                            </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="../img/curso_web3-removebg-preview.png" class="card-img-top" alt="web_30">
+                        </div>
+                    </article>
+                </div>
         </div>
     </main>
 
@@ -102,7 +118,7 @@
         </a>
     </div>
 
-    <ul class="d-flex flex-column flex-sm-row align-items-center gap-2">
+    <ul class="d-flex flex-column flex-sm-row align-items-center custom_gap mt-5">
         <li>
             <a href="http://facebook.com" target="_blank">
                 <img src="../img/facebook_icon.svg" alt="facebook_icon" height="40" width="40">

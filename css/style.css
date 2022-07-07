@@ -11,10 +11,12 @@
 .navegador_link {
     color: var(--azul);
     font-size: 1.2rem;
+    transition: .5s;
 }
 
 .navegador_link:hover {
     color: var(--amarillo);
+    font-size: 1.4rem;
 }
 
 .boton {
@@ -136,4 +138,10 @@
 
 .bg-main {
     background-color: var(--azul);
+}
+
+@media (min-width: 768px) {
+    .custom_gap {
+        gap: 8rem;
+    }     
 }

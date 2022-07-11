@@ -1,0 +1,43 @@
+.hero_image {
+    background-image: url(/img/blockchain_hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 8px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 8px 1px rgba(0,0,0,0.75);
+        h1 {
+            color: $amarillo;
+        }
+        h2 {
+            color: $amarillo;
+            font-size: 1.3rem;
+        }
+}  
+
+.hero_padding {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.animacion_titulo {
+    animation-name: animacion_titulo;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+    @keyframes animacion_titulo {
+        0% {opacity: 0;}
+        100% {opacity: 100}
+    }
+
+    .animacion_titulo2 {
+        animation-name: animacion_titulo;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+    }
+    
+        @keyframes animacion_titulo {
+            0% {opacity: 0;}
+            50% {opacity: 0;}
+            100% {opacity: 100}
+        }

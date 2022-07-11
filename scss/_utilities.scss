@@ -1,0 +1,46 @@
+//UTILIDADES
+
+.bg_whitesmoke {
+    background-color: whitesmoke;
+}
+
+.bg-grey {
+    background-color: $gris;
+}
+
+.bg-main {
+    background-color: $azul;
+}
+
+@media (min-width: 768px) {
+    .custom_gap {
+        gap: 8rem;
+    }     
+}
+// BOTONES
+.boton {
+    background-color: $azul;
+    color: whitesmoke;
+    border-radius: .4rem;
+    border: none;
+    transition: .5s;
+    &:hover {
+        background-color: $amarillo;
+        color: black;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+}
+
+.boton_secundario {
+    background-color: $gris;
+    color: whitesmoke;
+    border-radius: .4rem;
+    border: none;
+    transition: .5s;
+    &:hover {
+        background-color: black;
+        font-size: 1.1rem;
+        font-weight: bold;  
+    }
+}

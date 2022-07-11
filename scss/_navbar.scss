@@ -1,0 +1,15 @@
+//NAVBAR
+
+.navegador_link {
+    color: $azul;
+    font-size: 1.2rem;
+    transition: .5s;
+    &:hover {
+        color: $amarillo;
+        font-size: 1.4rem;
+    }
+}
+
+.navbar_opacity {
+    background-color: $transparente;
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&family=PT+Sans:wght@400;700&family=Readex+Pro:wght@400;700&family=Staatliches&display=swap");
+.navegador_link {
+  color: #3c78bb;
+  font-size: 1.2rem;
+  transition: .5s; }
+  .navegador_link:hover {
+    color: #f3bb10;
+    font-size: 1.4rem; }
+
+.navbar_opacity {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.hero_image {
+  background-image: url(/img/blockchain_hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 10px 8px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 8px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 8px 1px rgba(0, 0, 0, 0.75); }
+  .hero_image h1 {
+    color: #f3bb10; }
+  .hero_image h2 {
+    color: #f3bb10;
+    font-size: 1.3rem; }
+
+.hero_padding {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.animacion_titulo {
+  animation-name: animacion_titulo;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1; }
+
+@keyframes animacion_titulo {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100; } }
+
+.animacion_titulo2 {
+  animation-name: animacion_titulo;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
+
+@keyframes animacion_titulo {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 100; } }
+
+/* INDEX */
+.carousel-inner img {
+  width: 100px;
+  height: 100px; }
+
+/* CURSOS */
+.cursos img {
+  width: 150px;
+  height: 150px; }
+
+/* NOSOTROS */
+.nosotros img {
+  max-width: 500px;
+  height: auto; }
+
+.img_contacto {
+  max-width: 500px;
+  height: auto; }
+
+.bg_whitesmoke {
+  background-color: whitesmoke; }
+
+.bg-grey {
+  background-color: #394b5d; }
+
+.bg-main {
+  background-color: #3c78bb; }
+
+@media (min-width: 768px) {
+  .custom_gap {
+    gap: 8rem; } }
+
+.boton {
+  background-color: #3c78bb;
+  color: whitesmoke;
+  border-radius: .4rem;
+  border: none;
+  transition: .5s; }
+  .boton:hover {
+    background-color: #f3bb10;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold; }
+
+.boton_secundario {
+  background-color: #394b5d;
+  color: whitesmoke;
+  border-radius: .4rem;
+  border: none;
+  transition: .5s; }
+  .boton_secundario:hover {
+    background-color: black;
+    font-size: 1.1rem;
+    font-weight: bold; }

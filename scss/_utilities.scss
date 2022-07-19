@@ -5,27 +5,26 @@
 }
 
 .bg-grey {
-    background-color: $gris;
+    background-color: map-get($map:$colores, $key:'gris');
 }
 
 .bg-main {
-    background-color: $azul;
+    background-color: map-get($map:$colores, $key:'azul');
 }
 
-@media (min-width: 768px) {
-    .custom_gap {
-        gap: 8rem;
-    }     
+.custom_gap {
+        gap: 2rem;
 }
+
 // BOTONES
 .boton {
-    background-color: $azul;
+    background-color: map-get($map:$colores, $key:'azul');
     color: whitesmoke;
     border-radius: .4rem;
     border: none;
     transition: .5s;
     &:hover {
-        background-color: $amarillo;
+        background-color: map-get($map:$colores, $key:'amarillo');
         color: black;
         font-size: 1.1rem;
         font-weight: bold;
@@ -33,7 +32,7 @@
 }
 
 .boton_secundario {
-    background-color: $gris;
+    background-color: map-get($map:$colores, $key:'gris');
     color: whitesmoke;
     border-radius: .4rem;
     border: none;

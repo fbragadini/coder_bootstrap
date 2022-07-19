@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&family=PT+Sans:wght@400;700&family=Readex+Pro:wght@400;700&family=Staatliches&display=swap");
-.navegador_link {
+.navegador_link, .navegador_link_footer {
   color: #3c78bb;
   font-size: 1.2rem;
   transition: .5s; }
-  .navegador_link:hover {
+  .navegador_link:hover, .navegador_link_footer:hover {
     color: #f3bb10;
     font-size: 1.4rem; }
 
@@ -51,23 +51,38 @@
   100% {
     opacity: 100; } }
 
+/* FOOTER */
+footer {
+  color: whitesmoke; }
+  footer ul li a {
+    color: whitesmoke; }
+
+.boton-footer {
+  padding: 10px 20px; }
+
+.navegador_link_footer {
+  font-size: 1rem;
+  text-decoration: none; }
+  .navegador_link_footer:hover {
+    font-size: 1.05rem; }
+
 /* INDEX */
 .carousel-inner img {
-  width: 100px;
-  height: 100px; }
+  height: 100px;
+  width: 100px; }
 
 /* CURSOS */
 .cursos img {
-  width: 150px;
-  height: 150px; }
+  height: 150px;
+  width: 150px; }
 
 /* NOSOTROS */
 .nosotros img {
-  max-width: 500px;
+  width: 500px;
   height: auto; }
 
 .img_contacto {
-  max-width: 500px;
+  width: 500px;
   height: auto; }
 
 .bg_whitesmoke {
@@ -79,17 +94,16 @@
 .bg-main {
   background-color: #3c78bb; }
 
-@media (min-width: 768px) {
-  .custom_gap {
-    gap: 8rem; } }
+.custom_gap {
+  gap: 2rem; }
 
-.boton {
+.boton, .boton-footer {
   background-color: #3c78bb;
   color: whitesmoke;
   border-radius: .4rem;
   border: none;
   transition: .5s; }
-  .boton:hover {
+  .boton:hover, .boton-footer:hover {
     background-color: #f3bb10;
     color: black;
     font-size: 1.1rem;

@@ -1,6 +1,11 @@
 // Variables globales
-$amarillo: #f3bb10;
-$celeste: #44abdf;
-$azul: #3c78bb;
-$gris: #394b5d;
+$colores: (
+    'amarillo': #f3bb10,
+    'celeste': #44abdf,
+    'azul': #3c78bb,
+    'gris': #394b5d,
+    'blanco': whitesmoke,
+);
+
+
 $transparente: rgba(0, 0, 0, .5);

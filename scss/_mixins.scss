@@ -1,0 +1,11 @@
+// Mixins
+
+@mixin img_size ($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+@mixin img_maxwidth ($width) {
+    width: $width;
+    height: auto;
+}

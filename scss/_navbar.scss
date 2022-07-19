@@ -1,11 +1,11 @@
 //NAVBAR
 
 .navegador_link {
-    color: $azul;
+    color: map-get($map:$colores, $key:'azul');
     font-size: 1.2rem;
     transition: .5s;
     &:hover {
-        color: $amarillo;
+        color: map-get($map:$colores, $key:'amarillo');
         font-size: 1.4rem;
     }
 }

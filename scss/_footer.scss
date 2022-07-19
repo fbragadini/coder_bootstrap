@@ -1,0 +1,21 @@
+/* FOOTER */
+footer {
+    color: map-get($map: $colores, $key: 'blanco');
+    ul li a {
+        color: map-get($map: $colores, $key: 'blanco');
+    }
+}
+
+.boton-footer {
+    @extend .boton;
+    padding: 10px 20px;
+}
+
+.navegador_link_footer {
+    @extend .navegador_link;
+    font-size: 1rem;
+    text-decoration: none;
+    &:hover {
+        font-size: 1.05rem;
+    }
+}

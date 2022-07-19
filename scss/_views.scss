@@ -1,26 +1,22 @@
 /* INDEX */
 
 .carousel-inner img {
-    width: 100px;
-    height: 100px;
+    @include img_size (100px, 100px)
 }
 
 /* CURSOS */
 
 .cursos img {
-    width: 150px;
-    height: 150px;
+    @include img_size (150px, 150px)
 }
 
 /* NOSOTROS */
 
 .nosotros img {
-    max-width: 500px;
-    height: auto;
+    @include img_maxwidth (500px)
 }
 
 
 .img_contacto {
-    max-width: 500px;
-    height: auto;
+    @include img_maxwidth (500px)
 }

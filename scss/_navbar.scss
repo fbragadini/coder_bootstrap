@@ -13,3 +13,8 @@
 .navbar_opacity {
     background-color: $transparente;
 }
+
+.active-link {
+    color: map-get($map:$colores, $key:'amarillo');
+    font-size: 1.4rem;
+}

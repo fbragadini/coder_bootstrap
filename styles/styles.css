@@ -10,6 +10,10 @@
 .navbar_opacity {
   background-color: rgba(0, 0, 0, 0.5); }
 
+.active-link {
+  color: #f3bb10;
+  font-size: 1.4rem; }
+
 .hero_image {
   background-image: url(/img/blockchain_hero.jpeg);
   background-repeat: no-repeat;
